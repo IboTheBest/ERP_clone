@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "username": "Ibrohim",
+      "password": "Ibrohim123ss",
+      "id": "2c74"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "path": "/",
+      "title": "Asosiy"
+    },
+    {
+      "id": "2",
+      "path": "/teachers",
+      "title": "Ustozlar"
+    },
+    {
+      "id": "3",
+      "path": "/students",
+      "title": "O'quvchilar"
+    },
+    {
+      "id": "4",
+      "path": "/market",
+      "title": "Dokon"
+    },
+    {
+      "id": "5",
+      "path": "/groups",
+      "title": "Guruxlar"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Nurillo",
+      "surname": "Suyunboyev",
+      "age": 41,
+      "stackId": "1",
+      "stack": "Frontend developer",
+      "region": "Namangan",
+      "regionId": "3",
+      "district": "Norin",
+      "status": "Asosiy teacher",
+      "statusId": "2",
+      "experience": "2 yil",
+      "gender": "Erkak",
+      "email": "nurillosuyunboyev6@gmail.com",
+      "phone": "+998994683600",
+      "isMerried": "Bo'ydoq",
+      "study": "National Universiy",
+      "workCompany": [
+        "TikTok",
+        "Facebook",
+        "Google"
+      ],
+      "workCompanyId": [
+        "3",
+        "2",
+        "1"
+      ],
+      "id": "1"
+    },
+    {
+      "name": "Valijon",
+      "surname": "Quvondiqov",
+      "age": "17",
+      "stackId": "2",
+      "stack": "Backend",
+      "region": "Jizzax",
+      "regionId": "6",
+      "district": "Kosmanavtlar",
+      "status": "Bosh ustoz",
+      "statusId": "3",
+      "experience": "1",
+      "gender": "Erkak",
+      "email": "valijon@gmail.com",
+      "phone": "+998991231212",
+      "isMerried": "Yoq ",
+      "study": "TATU",
+      "workCompany": [
+        "Microsoft",
+        "Tesla",
+        "OpenAI"
+      ],
+      "workCompanyId": [
+        "8",
+        "6",
+        "4"
+      ],
+      "id": "bc99"
+    },
+    {
+      "id": "f2b9",
+      "name": "Hondamir",
+      "surname": "Usmonov",
+      "age": "21",
+      "stackId": "2",
+      "stack": "Backend",
+      "region": "Toshkent",
+      "regionId": "1",
+      "district": "Olmazor tumani",
+      "status": "Asosiy ustoz",
+      "statusId": "2",
+      "experience": "2 yil",
+      "gender": "Erkak",
+      "email": "hondamir@gmail.com",
+      "phone": "+998904445566",
+      "isMerried": "Yo'q",
+      "study": "MDIS",
+      "workCompany": [
+        "OpenAI",
+        "TikTok",
+        "Facebook"
+      ],
+      "workCompanyId": [
+        "4",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "id": "1f91",
+      "name": "Muhammadrizo",
+      "surname": "Mirvohidov",
+      "age": "18",
+      "stackId": "3",
+      "stack": "Full Stack",
+      "region": "Toshkent",
+      "regionId": "1",
+      "district": "Olmazor tumani",
+      "status": "Asosiy ustoz",
+      "statusId": "2",
+      "experience": "1 yil tajriba bor",
+      "gender": "Erkak",
+      "email": "muhammadrizo@gmail.com",
+      "phone": "+998993669555",
+      "isMerried": "Yoq hali",
+      "study": "TOSHMI",
+      "workCompany": [
+        "TikTok",
+        "Facebook",
+        "Najot Ta'lim"
+      ],
+      "workCompanyId": [
+        "3",
+        "2",
+        "9"
+      ]
+    }
+  ],
+  "stack": [
+    {
+      "name": "Frontend",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfqrCn4NqkXbB6tD-eCocbmh-AyGebSsy0A&s",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Backend",
+      "image": "https://media.gettyimages.com/id/1422276740/vector/software-developer-flat-design.jpg?s=612x612&w=gi&k=20&c=nAeiHldWvLHV-S4CRv5BsRtwH2PlS7t7Dynol9npglE="
+    },
+    {
+      "id": "3",
+      "name": "Full Stack",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPV0S6QPMqXN7rCVsTPsQzKSWcb2mpBU6Z4Q&s"
+    },
+    {
+      "id": "4",
+      "name": "Graphic design",
+      "image": "https://inspiria.edu.in/wp-content/uploads/Career-in.-graphic-designers.webp"
+    },
+    {
+      "id": "5",
+      "name": "Flutter",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJzpEkv-vlwrVppb-PQuWArI1sXR9vAYAwNg&s"
+    },
+    {
+      "id": "6",
+      "name": "Java",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIyYYAhEoXWOcyx0sjHiaK2TrmUNxxMJdE6g&s"
+    },
+    {
+      "id": "7",
+      "name": "Foundation",
+      "image": "https://www.champstreet.com/blog/wp-content/uploads/2018/11/foundation-course.jpg"
+    },
+    {
+      "id": "5e1e",
+      "name": "SMM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lflQCp8Q43iOIItqydTQw1u0L5BGUllOQg&s"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "stackId": "1",
+      "name": "React JS N77",
+      "createdAt": "03.08.2024",
+      "status": true,
+      "mainTeacher": "Nurillo Suyunboyev",
+      "teacherId": "1",
+      "supportTeacher": "Isroil Omonjonov",
+      "room": "Facebook",
+      "roomId": "1"
+    },
+    {
+      "id": "2",
+      "stackId": "2",
+      "name": "Backend NodeJS N72",
+      "room": "Instagram",
+      "roomId": "3",
+      "mainTeacher": "Valijon Quvondiqov",
+      "teacherId": "bc99",
+      "createdAt": "03.08.2024",
+      "supportTeacher": "Isroil Omonjonov",
+      "status": true
+    },
+    {
+      "id": "9b2c",
+      "stackId": "3",
+      "name": "Full Stack N01",
+      "room": "Facebook",
+      "roomId": "1",
+      "mainTeacher": "Muhammadrizo",
+      "teacherId": "1f91",
+      "createdAt": "2025-02-28",
+      "supportTeacher": "Nurillo Suyunboyev",
+      "status": true
+    }
+  ],
+  "regions": [
+    {
+      "id": "1",
+      "name": "Toshkent"
+    },
+    {
+      "id": "2",
+      "name": "Fargona"
+    },
+    {
+      "id": "3",
+      "name": "Namangan"
+    },
+    {
+      "id": "4",
+      "name": "Andijon"
+    },
+    {
+      "id": "5",
+      "name": "Sirdaryo"
+    },
+    {
+      "id": "6",
+      "name": "Jizzax"
+    },
+    {
+      "id": "7",
+      "name": "Samarqand"
+    },
+    {
+      "id": "8",
+      "name": "Qashqadaryo"
+    },
+    {
+      "id": "9",
+      "name": "Surxandaryo"
+    },
+    {
+      "id": "10",
+      "name": "Buxoro"
+    },
+    {
+      "id": "11",
+      "name": "Xorazm"
+    },
+    {
+      "id": "12",
+      "name": "Navoi"
+    }
+  ],
+  "status": [
+    {
+      "id": "1",
+      "name": "Yordamchi ustoz"
+    },
+    {
+      "id": "2",
+      "name": "Asosiy ustoz"
+    },
+    {
+      "id": "3",
+      "name": "Bosh ustoz"
+    },
+    {
+      "id": "4",
+      "name": "Boshqaruvchi ustoz"
+    }
+  ],
+  "workList": [
+    {
+      "id": "1",
+      "name": "Google"
+    },
+    {
+      "id": "2",
+      "name": "Facebook"
+    },
+    {
+      "id": "3",
+      "name": "TikTok"
+    },
+    {
+      "id": "4",
+      "name": "OpenAI"
+    },
+    {
+      "id": "5",
+      "name": "Telegram"
+    },
+    {
+      "id": "6",
+      "name": "Tesla"
+    },
+    {
+      "id": "7",
+      "name": "Apple"
+    },
+    {
+      "id": "8",
+      "name": "Microsoft"
+    },
+    {
+      "id": "9",
+      "name": "Najot Ta'lim"
+    },
+    {
+      "id": "10",
+      "name": "Kahoot"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "studentId": "18295",
+      "name": "Eldor",
+      "groupId": "1",
+      "group":"React JS N77",
+      "stackId": "1",
+      "surname": "Xudoyberganov",
+      "age": "16",
+      "region": "Toshkent",
+      "regionId": "1",
+      "district": "Olmazor tumani",
+      "study": "333-maktab",
+      "status": true,
+      "phone": "+998909718295",
+      "email": "eldor@gmail.com"
+    },
+    {
+      "id": "2",
+      "studentId": "27771",
+      "name": "Temur",
+      "surname": "Tolibov",
+      "groupId": "2",
+      "group":"Backend NodeJS N72",
+      "stackId": "2",
+      "age": "20",
+      "region": "Fargona",
+      "regionId": "2",
+      "district": "Fargona shahar",
+      "study": "Islamic academic",
+      "status": true,
+      "phone": "+998973361266",
+      "email": "temur@gmail.com"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Facebook"
+    },
+    {
+      "id": "2",
+      "name": "Tesla"
+    },
+    {
+      "id": "3",
+      "name": "Instagram"
+    },
+    {
+      "id": "4",
+      "name": "Osmondagi bolalar"
+    }
+  ]
+}

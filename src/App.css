@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@font-face {
+    font-display: swap;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/livvic-v14-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/livvic-v14-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/livvic-v14-latin-700.woff2') format('woff2');
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+:root{
+    --clr-main:#bc8e5b;
+}
+body{
+    font-family: "Livvic", sans-serif;
+    background-color: #f1f0ee;
+    overflow-y: hidden;
+}
+a{
+    font-family: "Livvic", sans-serif;
+}
+.main-color, .ant-spin-dot-holder{
+    color: var(--clr-main) !important;
+}
+
+.ant-btn-primary, .ant-menu-item-selected{
+    background-color: var(--clr-main) !important;
+}
+.ant-input-affix-wrapper:hover{
+    border-color: var(--clr-main) !important;
+}
+.ant-input-affix-wrapper-focused, .ant-input:hover, .ant-input:focus, .ant-select-selector:hover, .ant-select-selector:focus{
+    border-color: var(--clr-main) !important;
+}
+.ant-input-outlined:focus-within{
+    box-shadow: 0 0 0 2px #bc8f5b2d !important;
+}
+.ant-btn:hover{
+    color: var(--clr-main) !important;
+    border-color: var(--clr-main) !important;
+}
+.ant-btn-primary:hover{
+    color: white !important;
+    opacity: 80% !important; 
+}
+
+.main-logo{
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes logo{
+    0%{
+      transform: scale(2) rotateY(0);  
+    }
+    100%{
+        transform: scale(3.5) rotateY(180deg);  
+    }
+}
+.ant-pagination-item-active{
+    border-color: var(--clr-main) !important;
+    color: var(--clr-main) !important;
+}
+.ant-pagination-item-active > a{
+    color: var(--clr-main) !important;
+}
